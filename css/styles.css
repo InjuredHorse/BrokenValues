@@ -1,13 +1,52 @@
 body {
     background-color: #3E3636;
     color: #F5EDED;
+    font-family: WorkSans;
 }
+
+/* Nav Bar */
 
 .bknnavbar {
     background-color: #000;
     height: 70px;
+    padding: 10px;
 }
 
 .navicon {
-    margin: 3px;
+    position: relative;
+    bottom: 13px;
+    margin-right: 10px;
+}
+
+.navtitle {
+    display: inline-block;
+}
+
+.bknnavlink {
+    display: inline-block;
+}
+
+/* Main Page */
+
+.pagetitle {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Value Cards */
+
+.valuecard {
+    background-color: #000;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.valuetitle {
+}
+
+.valuecardimage {
+    margin: 0 0 10px 0;
 }
