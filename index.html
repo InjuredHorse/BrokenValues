@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broken Values</title>
+    <title>Trade Crate</title>
     <!-- Favicon -->
-    <link rel="icon" type="" href="images/bv.ico">
+    <link rel="icon" type="" href="images/tradeCrateLogo.ico">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e24be1ca84.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
@@ -16,24 +16,48 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;900&family=Open+Sans&family=Sacramento&family=Source+Code+Pro:wght@400;700;900&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700;900&family=Open+Sans&family=Sacramento&family=Source+Code+Pro:wght@400;700;900&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Nav Bar -->
     <div class="bknnavbar">
-        <img class="navicon" src="images/logo.png" alt="Broken Values Logo" width="60">
-        <h1 class="navtitle">Broken Values</h1>
-        <h4 class="bknnavlink">Values</h4>
+        <h4 class="tc-navIconLink"><i class="fa-brands fa-app-store"></i></h4>
+        <h4 class="tc-navIconLink"><i class="fa-brands fa-google-play"></i></h4>
+        <h4 class="tc-navIconLink"><i class="fa-brands fa-twitter"></i></h4>
+        <h4 class="tc-navIconLink"><i class="fa-brands fa-discord"></i></h4>
+        <button>Get Premium</button>
+        <img src="/images/tradeCrateLogoSmall.png" alt="Trade Crate Logo" width="40px" style="margin-top: 0; margin-left: 20%;">
+        <h1 class="pagetitle" style=" margin-left: 10px; display: inline-block;">Trade Crate</h1>
+        <button style="margin-left: 30%;">Login</button>
+        <button>Register</button>
     </div>
     <!-- Main Page -->
-    <div>
-        <h1 class="pagetitle">Broken Values</h1>
+    <div class="tc-mainNav">
+        <img class="tc-mainNavImage" src="/images/tradeCrateLogo.png" alt="Trade Crate Logo" width="80px">
+        <h5 class="tc-mainNavLinks"><i class="fa-solid fa-house"></i> Home</h5>
+        <h5 class="tc-mainNavLinks"><i class="fa-solid fa-hand-holding-heart"></i> Giveaways</h5>
+        <h5 class="tc-mainNavLinks"><i class="fa-solid fa-cart-shopping"></i> Shop</h5>
+        <h5 class="tc-mainNavLinks"><i class="fa-solid fa-handshake"></i> Trading</h5>
+        <h5 class="tc-mainNavLinks"><i class="fa-solid fa-gun"></i> Items</h5>
+        <h5 class="tc-mainNavLinks"><i class="fa-solid fa-briefcase"></i> Inventory</h5>
+        <button class="tc-mainNavGetAppButton btn btn-light">Get the app!</button>
+    </div>
+    <div class="tc-itemNav">
+        <h1 class="tc-pageName">ITEMS</h1>
+        <!-- <input class="tc-searchBar" type="text" placeholder="Search..."> -->
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search Items..." aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-light" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+    <div class="tc-itemNav">
         <div class="valuecard">
             <h3 class="valuetitle">Candy</h3>
             <img class="valuecardimage" src="https://static.wikia.nocookie.net/murder-mystery-2/images/1/1a/Updated_Candy.png/" alt="Candy Knife MM2" width="150px">
-            <h2><i class="fa-solid fa-circle-up"></i> 190</h2>
-            <h4><i class="fa-solid fa-lightbulb"></i> 4 <i class="fa-solid fa-gem"></i> 3</h4>
+            <h5 style="font-weight: 400;">190 SUP</h5>
+            <h5 style="font-weight: 400;">225 MM2</h5>
         </div>
     </div>
 </body>

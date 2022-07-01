@@ -1,21 +1,20 @@
 body {
-    background-color: #3E3636;
-    color: #F5EDED;
+    background-color: #2f3136;
+    color: #fff;
     font-family: WorkSans;
 }
 
 /* Nav Bar */
 
 .bknnavbar {
-    background-color: #000;
+    background-color: #202225;
     height: 70px;
     padding: 10px;
 }
 
-.navicon {
-    position: relative;
-    bottom: 13px;
-    margin-right: 10px;
+.tc-navIconLink {
+    margin-left: 10px;
+    display: inline-block;
 }
 
 .navtitle {
@@ -26,18 +25,53 @@ body {
     display: inline-block;
 }
 
-/* Main Page */
-
 .pagetitle {
     text-align: center;
-    margin: 20px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 1px;
+}
+
+/* Main Navbar */
+
+.tc-mainNav {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tc-mainNavImage {
+    margin-right: 80px;
+}
+
+.tc-mainNavLinks {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.tc-mainNavGetAppButton {
+    margin-left: 80px;
+}
+
+/* Item page */
+
+.tc-itemNav {
+    padding: 40px 13%;
+}
+
+.tc-pageName {
+    display: inline-block;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 1px;
+}
+
+.tc-searchBar {
+    display: inline-block;
 }
 
 /* Value Cards */
 
 .valuecard {
-    background-color: #000;
-    height: 300px;
+    background-color: #36393f;
+    height: 290px;
     width: 200px;
     border-radius: 15px;
     text-align: center;
@@ -45,6 +79,8 @@ body {
 }
 
 .valuetitle {
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 1px;
 }
 
 .valuecardimage {
