@@ -51,16 +51,16 @@ body {
     margin-left: 80px;
 }
 
-.tc-yellowBtn {
-    background-color: #FFD166;
-    border-color: #FFD166;
+.tc-greenBtn {
+    background-color: #A0E426;
+    border-color: #A0E426;
     color: #1b1b1b;
     font-weight: 600;
 }
 
 .tc-blueBtn {
-    background-color: #7FC8F8;
-    border-color: #7FC8F8;
+    background-color: #33A8C7;
+    border-color: #33A8C7;
     color: #1b1b1b;
     font-weight: 600;
 }
